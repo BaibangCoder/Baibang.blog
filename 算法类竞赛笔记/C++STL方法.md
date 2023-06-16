@@ -301,5 +301,12 @@ vector是一个向量容器，使用方法和二维数组差不多，可以当�
 
 
 
+# 二叉堆（priority_queue）
 
+` priotity_queue<int,vector<int>,greater<int>>q;`定义一个堆
 
+`q.push()`压入一个元素
+
+`q.top`取内最小元素
+
+`q.pop()`删除堆内最小的数
