@@ -74,6 +74,8 @@
 
 ```C++
 upper_bound()//查找第1个大于x的元素位置
+bin_search()//和lower_bound()的功能一致
+lower_bound()//查找第一个等于或大于x的位置
 ```
 
 
@@ -250,13 +252,59 @@ s.equal_range() //	返回一对定位器，分别表示 第一个大于或等于
 
 允许容器里有重复的元素
 
-
-
-
-
-
-
 # List
+
+```C++
+	list<int> l			声明一个空链表
+	list<int> l{1,2,3}	声明一个含指定元素的链表
+	list<int> l(n)    	声明一个含n个元素的链表并全部初始化为0
+	list<int> l(n, m)  	声明一个含n个元素的链表并全部初始化为m
+	list<int> l(a,b)  	声明一个链表并初始化为区间[a,b]中的元素，a、b是迭代器
+
+```
+
+#### 基本操作
+
+```C++
+增：
+	l.insert() 					插入一个元素到list中
+	l.push_back() 				在list的末尾添加一个元素 
+	l.push_front() 				在list的头部添加一个元素
+	
+删：
+	l.clear() 					清空list的所有元素
+	l.erase() 					删除一个元素
+	l.erase(l.begin(),l.end())  将l从begin()到end()之间的元素删除。
+	l.pop_back() 				删除最后一个元素 
+	l.pop_front() 				删除第一个元素
+	l.remove() 					从list删除指定元素 
+	l.remove_if() 				按指定条件删除元素
+	l.unique() 					删除list中重复的元素
+	
+改：
+	l.resize() 					改变list的大小
+	l.reverse() 				把list的元素倒转
+	
+查：
+	l.front() 					返回第一个元素 
+	l.back() 					返回最后一个元素
+	l.empty() 					若list是空的则返回true，否则返回false
+	l.max_size() 				返回list能容纳的最大元素数量 
+	l.size() 					返回list中的元素个数
+
+其他操作：
+	l.assign() 					给list赋值
+	l.get_allocator() 			返回list的配置器
+	l.merge() 					合并两个list
+	l.begin() 					返回指向第一个元素的迭代器 
+	l.end() 					返回末尾的迭代器
+	l.rbegin() 					返回指向第一个元素的逆向迭代器 
+	l.rend() 					指向list末尾的逆向迭代器
+	l.sort() 					给list排序
+	l.splice() 					合并两个list
+	l.swap() 					交换两个list
+
+```
 
 
 
