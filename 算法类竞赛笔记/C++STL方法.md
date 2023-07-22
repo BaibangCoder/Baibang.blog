@@ -53,7 +53,7 @@
 
 接受三个参数（第一个参数是存储对象的类型，第二个参数是存储元素的底层容器，第三个参数是函数对象）
 
-例如：`priority_queue(int , vector<int> , greater<int>);`
+例如：`priority_queue(int , vector<int> , greater<int>);`// 此时创建的是一个小根堆
 
 对 `priority_queue` 进行操作有一些限制：
 
@@ -75,9 +75,9 @@
 使用前提：：只是简单的查找x和x附近的数
 
 ```C++
-upper_bound()//查找第1个大于x的元素位置
-bin_search()//和lower_bound()的功能一致
-lower_bound()//查找第一个等于或大于x的位置
+upper_bound()// 查找第1个大于x的元素位置
+bin_search()// 和lower_bound()的功能一致
+lower_bound()// 查找第一个等于或大于x的位置
 ```
 
 
@@ -124,16 +124,16 @@ map容器会根据**key值**自动排序，**升序**排序；
 `map<set<int>,string> mp;`
 
 3.map容器内元素的访问
-					map一般用两种访问方式：通过**下标**访问或通过**迭代器**访问。
+  map一般用两种访问方式：通过**下标**访问或通过**迭代器**访问。
 
 4.map的访问方式：
-			（1）通过下标访问：  直接使用 **mp ['c']** 的方式来访问它对应的整数，key值就是下标。  需要注意的是，同 set 容器相同，**map 中的键是唯一的**。
+（1）通过下标访问：  直接使用 **mp ['c']** 的方式来访问它对应的整数，key值就是下标。  需要注意的是，同 set 容器相同，**map 中的键是唯一的**。
 
-​	（2）通过迭代器访问：和其他迭代器的定义方式相同：
+（2）通过迭代器访问：和其他迭代器的定义方式相同：
 
-​			`map<typename1,typename2>:: iterator it;`      使用方法和指针类似
+​	`map<typename1,typename2>:: iterator it;`      使用方法和指针类似
 
-​		(3) 访问方式map可以使用 `it->first` 来访问键，使用 `it->second` 来访问值。
+​	(3) 访问方式map可以使用 `it->first` 来访问键，使用 `it->second` 来访问值。
 
 ​	进行遍历时，全遍历的范围时`for(it=mp.begin ; it!=mp.end() ; it++)`
 
@@ -236,6 +236,11 @@ s.size()//返回当前set容器中的元素个数
 s.find()        //查找一个元素，如果容器中不存在该元素，返回值等于s.end()
     //使用set<int>::iterator pos = s.find(3);，查找元素1的时间复杂度为O(logN)//因为set的底层是搜索树;
     //使用set<int>::iterator pos = find(s.begin(), s.end(), 3);的时间复杂度为O(N),//注意是三个参数;
+
+set::count()//是C++ STL中的内置函数，它**返回元素在集合中出现的次数**。由于set容器仅包含唯一元素，因此只能返回1或0。
+//用法：set_name.count(element)
+//参数：该函数接受一个强制性参数element，该元素指定要返回其计数的元素。
+//返回值：该函数返回1或0，因为该集合仅包含唯一元素。如果设置的容器中存在该值，则返回1。如果容器中不存在它，则返回0。
 ```
 
 其他常用操作
