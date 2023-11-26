@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "f3ed1f748ce7b8b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7e535e5cd5a8f3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5aa7e17b49d2212b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "76b47a614137b35e"
+          }
+        ]
+      },
+      {
+        "id": "37ac3a08d48f9047",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5e29e9b1939ee59",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md"
+              }
+            },
+            "group": "76b47a614137b35e"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "28c2e3e29a7c3026",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f209868c0803e53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "756caf17026620b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdc2ef05a4d4e1ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9df4b463ac470c84",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.50329208374023
+  },
+  "right": {
+    "id": "b1b5e1983d4daa8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebb0114b4df99ff7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62fe16cf339f5338",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "93f5eea6df0fc0b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d642b28aa9feedc5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "caef9b2b442c3fde",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d5e29e9b1939ee59",
+  "lastOpenFiles": [
+    "未命名.canvas",
+    "C与C++/C语言学习笔记/C语言的字符串和字符串函数.md",
+    "C与C++/C语言学习笔记/结构和其拓展类型（联合、枚举）.md",
+    "Git/git.md",
+    "Go/3.Go循环.md",
+    "Go/13.Go实现数据结构.md",
+    "数据结构合集.md",
+    "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
+    "Go/2.Go选择分支.md",
+    "note/Python-100-Days-master/Day01-15/04.循环结构.md",
+    "note/Python-100-Days-master/Day81-90/88.深度学习入门.md",
+    "C与C++/C语言学习笔记/C预处理器和C库（补充语法）.md",
+    "2023-11-24.md",
+    "C与C++/C语言学习笔记/文件操作（输入、输出）.md",
+    "数据结构合集.assets/image-20230113181311262.png"
+  ]
+}
