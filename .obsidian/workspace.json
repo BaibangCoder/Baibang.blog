@@ -6,17 +6,14 @@
       {
         "id": "f7e535e5cd5a8f3c",
         "type": "tabs",
+        "dimension": 65.98579040852576,
         "children": [
           {
             "id": "5aa7e17b49d2212b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             },
             "group": "76b47a614137b35e"
           }
@@ -25,15 +22,14 @@
       {
         "id": "37ac3a08d48f9047",
         "type": "tabs",
+        "dimension": 34.01420959147424,
         "children": [
           {
             "id": "d5e29e9b1939ee59",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md"
-              }
+              "state": {}
             },
             "group": "76b47a614137b35e"
           }
@@ -103,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -164,8 +156,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d5e29e9b1939ee59",
+  "active": "5aa7e17b49d2212b",
   "lastOpenFiles": [
+    "Go/project/Gin+WebSocket项目实战IM/assets/image-20231130004711541.png",
+    "Go/project/Gin+WebSocket项目实战IM/assets",
+    "Go/project/租车小程序/账号注册，和VScode配置.md",
+    "Go/project/租车小程序/需要自己去了解的.md",
+    "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
     "未命名.canvas",
     "C与C++/C语言学习笔记/C语言的字符串和字符串函数.md",
     "C与C++/C语言学习笔记/结构和其拓展类型（联合、枚举）.md",
@@ -173,7 +170,6 @@
     "Go/3.Go循环.md",
     "Go/13.Go实现数据结构.md",
     "数据结构合集.md",
-    "C与C++/C语言学习笔记/存储类别、链接和内存管理小结.md",
     "Go/2.Go选择分支.md",
     "note/Python-100-Days-master/Day01-15/04.循环结构.md",
     "note/Python-100-Days-master/Day81-90/88.深度学习入门.md",
