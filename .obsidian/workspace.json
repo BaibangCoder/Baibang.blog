@@ -6,7 +6,6 @@
       {
         "id": "f7e535e5cd5a8f3c",
         "type": "tabs",
-        "dimension": 65.98579040852576,
         "children": [
           {
             "id": "5aa7e17b49d2212b",
@@ -14,24 +13,7 @@
             "state": {
               "type": "empty",
               "state": {}
-            },
-            "group": "76b47a614137b35e"
-          }
-        ]
-      },
-      {
-        "id": "37ac3a08d48f9047",
-        "type": "tabs",
-        "dimension": 34.01420959147424,
-        "children": [
-          {
-            "id": "d5e29e9b1939ee59",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            },
-            "group": "76b47a614137b35e"
+            }
           }
         ]
       }
