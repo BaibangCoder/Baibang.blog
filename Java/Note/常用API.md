@@ -1,0 +1,73 @@
+# Math
+
+![image-20240119104347154](assets/image-20240119104347154.png)
+
+
+
+# System
+
+![image-20240119105339488](assets/image-20240119105339488.png)
+
+
+
+## arraycopy
+
+![image-20240119105145351](assets/image-20240119105145351.png)
+
+
+
+# Runtime
+
+表示当前虚拟机的运行环境
+
+![image-20240119110557640](assets/image-20240119110557640.png)
+
+# Object
+
+![image-20240119112359616](assets/image-20240119112359616.png)
+
+## clone
+
+默认使用浅克隆
+
+# Objects
+
+是一个工具类
+
+![image-20240119121812538](assets/image-20240119121812538.png)
+
+
+
+# BigInterger和BigDecima
+
+![](assets/image-20240119122139577.png)
+
+![image-20240119122348428](assets/image-20240119122348428.png)
+
+![image-20240119122407896](assets/image-20240119122407896.png)
+
+![image-20240119123316508](assets/image-20240119123316508.png)
+
+
+
+
+
+![image-20240119123842133](assets/image-20240119123842133.png)
+
+![image-20240119123926343](assets/image-20240119123926343.png)
+
+# 正则表达式
+
+![image-20240119154231246](assets/image-20240119154231246.png)
+
+![image-20240119171500045](assets/image-20240119171500045.png)
+
+# 分组
+
+分组就是一个小括号
+
+![image-20240119172417649](assets/image-20240119172417649.png)
+
+![image-20240119173720227](assets/image-20240119173720227.png)
+
+![image-20240119173750820](assets/image-20240119173750820.png)
