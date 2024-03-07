@@ -10,7 +10,7 @@
 
 在Linux中使用`ifconfig`命令查看虚拟机的IP地址：
 
-![c9919db61fee279b1fb95be2a3789c3](assets/c9919db61fee279b1fb95be2a3789c3.png)
+![image-20240307174136134](assets/image-20240307174136134.png)
 
 然后打开VsCode ， 安装插件
 
