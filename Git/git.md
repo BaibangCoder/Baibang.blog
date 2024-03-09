@@ -4,11 +4,11 @@
 
 分布式版本控制系统没有“中央服务器”，每个人的电脑都是一个完整的版本库，这样工作的时候，无需要联网了，因为版本库就在你自己的电脑上，多人协作只需要各自的修改推送给对方，就能互相看到对方的修改了。
 
-<img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230629213851072.png" alt="image-20230629213851072" style="zoom: 67%;" />
+<img src=".\assets\image-20230629213851072.png" alt="image-20230629213851072" style="zoom: 67%;" />
 
 ## git的工作流程图
 
-<img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230629214514513.png" alt="image-20230629214514513" style="zoom:67%;" />
+<img src=".\assets\image-20230629214514513.png" alt="image-20230629214514513" style="zoom:67%;" />
 
 命令如下：
 
@@ -22,7 +22,7 @@
 
 # Git安装与常用命令
 
-![image-20230629215753081](E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230629215753081.png)
+![image-20230629215753081](.\assets\image-20230629215753081.png)
 
 直接从官网下载，里面有教程
 
@@ -55,7 +55,7 @@
 
 **注意**：用户名和邮箱输入错误不要紧，重新来一遍就行，邮箱不需要是可用邮箱
 
-<img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230708211305952.png" alt="image-20230708211305952" style="zoom:67%;" />
+<img src=".\assets\image-20230708211305952.png" alt="image-20230708211305952" style="zoom:67%;" />
 
 ## 为常用指令配置别名（可选）
 
@@ -67,7 +67,7 @@
 
    部分windows系统不允许创建点号开头的文件，可以打开gitBash,执行`touch ~/.bashrc`
 
-   <img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230629223127495.png" alt="image-20230629223127495" style="zoom:67%;" />
+   <img src=".\assets\image-20230629223127495.png" alt="image-20230629223127495" style="zoom:67%;" />
 
 2. 在`.bashrc`文件中输入以下内容：
 
@@ -80,7 +80,7 @@
 
 3. 打开gitBash，执行`source ~/.bashrc`
 
-   <img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230629223807228.png" alt="image-20230629223807228" style="zoom:67%;" />
+   <img src=".\assets\image-20230629223807228.png" alt="image-20230629223807228" style="zoom:67%;" />
 
 4. 解决GitBash乱码的问题
 
@@ -92,7 +92,7 @@
 
    2. 然后执行这步骤操作
 
-      ![image-20230629224105890](E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230629224105890.png)
+      ![image-20230629224105890](.\assets\image-20230629224105890.png)
 
 ## 获取本地仓库
 
@@ -103,7 +103,7 @@
 3. 执行`git init`命令。
 4. 创建成功后可在文件夹下看到隐藏的.git目录。
 
-<img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230708212523615.png" alt="image-20230708212523615" style="zoom:67%;" />
+<img src=".\assets\image-20230708212523615.png" alt="image-20230708212523615" style="zoom:67%;" />
 
 **概念**：文件夹里面除了.git文件夹外都是工作目录。
 
@@ -111,7 +111,7 @@
 
 Git工作目录下对于文件的修改会存在几个状态，这些修改的状态会随着我们执行Git的命令而发生变化。
 
-<img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230708212921757.png" alt="image-20230708212921757" style="zoom:67%;" />
+<img src=".\assets\image-20230708212921757.png" alt="image-20230708212921757" style="zoom:67%;" />
 
 - `git status`  查看修改的状态（暂存区、工作区）
 
@@ -145,7 +145,7 @@ Git工作目录下对于文件的修改会存在几个状态，这些修改的�
 
 如果在.git文件目录同级的目录中有不希望被git跟踪的文件，就可以在工作目录中创建一个名为.gitignore 的文件（文件名称固定），列出要忽略的文件模式。
 
- <img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230708232829759.png" alt="image-20230708232829759" style="zoom:67%;" />
+ <img src=".\assets\image-20230708232829759.png" alt="image-20230708232829759" style="zoom:67%;" />
 
 ## 分支
 
@@ -161,6 +161,6 @@ Git工作目录下对于文件的修改会存在几个状态，这些修改的�
 
 `git branch -d b1` 不能删除当前分支，只能删除其他分支，d为小写时做各种检查后删除，为大写时不做任何检查，强制删除。
 
-<img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230709091032539.png" alt="image-20230709091032539" style="zoom:67%;" />
+<img src=".\assets\image-20230709091032539.png" alt="image-20230709091032539" style="zoom:67%;" />
 
-<img src="E:\Code\GitHubProject\Baibang.blog\Git\assets\image-20230709091154578.png" alt="image-20230709091154578" style="zoom:67%;" />
+<img src=".\assets\image-20230709091154578.png" alt="image-20230709091154578" style="zoom:67%;" />
