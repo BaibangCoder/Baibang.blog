@@ -10,7 +10,7 @@
 4. `s.size()`或`s.length()`：得到字符串s的长度。
 5. `s.substr(pos,len)`：截取字符串s，从第pos个位置开始len个字符，并返回这个字符串。
 6. `s.insert(pos,str)`:在字符串s的第pos个字符==之前==插入字符串str，并返回这个字符串。
-7. `s.find(str,[ps])`：在字符串s中从第pos个字符开始寻找str，并返回位置，如果找不到返回-1。pos可以省略，默认值为0。
+7. `s.find(str,pos)`：在字符串s中从第pos个字符开始寻找str，并返回位置，如果找不到返回-1。pos可以省略，默认值为0。
 
 # 栈
 
@@ -94,6 +94,36 @@ bin_search()// 和lower_bound()的功能一致
 lower_bound()// 查找第一个等于或大于x的位置
 ```
 
+
+
+# fill()
+
+当我们想对一个容器的值进行填充时，我们就可以使用fill()函数。
+
+## 使用fill()函数填充普通一维数组
+
+```C++
+  fill (array,array+4,5);   // myvector: 5 5 5 5 0 0 0 0
+  fill (array+3,array+6,8);   // myvector: 5 5 5 8 8 8 0 0
+```
+
+在使用数组 array 时，array代表的就是array[]的起始地址，而array+4代表的就是在起始向后偏移4个位置的元素。 所以：fill (array,array+4,5); 得到的结果就是array[0] = array[1] = array[2] = array[3] = 5。后面的操作同理，不再叙述。
+## 使用fill()函数填充vector
+
+```C++
+fill (myvector.begin(),myvector.begin()+4,5);   // myvector: 5 5 5 5 0 0 0 0
+fill (myvector.begin()+3,myvector.end()-2,8);   // myvector: 5 5 5 8 8 8 0 0
+```
+
+因为vector不再是普通的数组了（即使它可以被视作是一个数组），所以我们不需要使用数组首地址的方式，因为vector已经给我们封装好了方法，其初始地址就是vector.begin()，末位地址就是vector.end()。其余同array。
+## 使用fill()函数填充二维数组
+
+简要代码：
+
+```C++
+fill(G[0],G[0]+6*4,520);
+// 填充6行4列的数值为520
+```
 
 
 
